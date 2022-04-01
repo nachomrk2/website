@@ -1,0 +1,817 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+/*HOLA PROFE, ME DI LA LIBERTAD DE JUGAR UN POCO CON LOS ESTILOS */
+/*OBVIAMENTE SIEMPRE RESPETANDO LA ESTRUCTURA DE LA EVALUACION */
+
+/* ESTILOS EN GENERAL */
+
+.color-title {
+    color: rgb(35, 44, 81);
+}
+
+.color-title li a {
+    color: rgb(35, 44, 81);
+}
+
+.color-paragraph {
+    color: rgb(143, 148, 167);
+}
+
+.color-paragraph2 {
+    color: rgb(249, 249, 249);
+}
+
+.color-paragraph3 {
+    color: rgb(29, 30, 37);
+}
+
+/* ENCABEZADO */
+
+#header-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2.5rem 5rem;
+}
+
+.img-logo {
+    margin-top: 0.5rem;
+}
+
+.ul-header {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 14px;
+}
+
+.ul-header li a {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.button-container1 button {
+    background-color: rgb(242, 95, 58);
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    color: rgb(249, 249, 249);
+    box-shadow: -1px 3px 8px -4px rgb(70, 70, 70);
+    -webkit-box-shadow: -1px 3px 8px -4px rgb(70, 70, 70);
+    -moz-box-shadow: -1px 3px 8px -4px rgb(70, 70, 70);
+}
+
+.icon-burger {
+    display: none;
+}
+
+ /* PRIMERA SECCION */
+
+#seccion1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 10rem;
+    padding-top: 5rem;
+    width: 100%;
+}
+
+/*article 1 */
+
+.article1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 3rem;
+}
+
+.article1 h1 {
+    font-size: 50px;
+    margin: 0.8rem;
+    font-weight: 700;
+}
+
+.article1 p {
+    font-size: 18px;
+    margin: 1.3rem;
+    padding-right: 5rem;
+    line-height: 27px;
+}
+
+.button-container2 button {
+    background-color: rgb(242, 95, 58);
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    color: rgb(249, 249, 249);
+    margin: 1.3rem;
+    box-shadow: -1px 3px 8px -4px rgb(70, 70, 70);
+    -webkit-box-shadow: -1px 3px 8px -4px rgb(70, 70, 70);
+    -moz-box-shadow: -1px 3px 8px -4px rgb(70, 70, 70);
+}
+
+/*articulo 2 */
+
+.article2 img {
+    transition: all 800ms;
+}
+
+/* SEGUNDA SECCION */
+
+#seccion2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 10rem;
+}
+
+/*articulo 3 */
+
+.article3 {
+    padding-right: 8rem;
+}
+
+.article3 h2 {
+    font-size: 38px;
+    font-weight: 700;
+    margin: 1.3rem;
+    padding-right: 0.1rem;
+}
+
+.article3 p {
+    font-size: 16px;
+    margin: 1.3rem;
+    padding-right: 5rem;
+    line-height: 27px;
+}
+
+/*articulo 4 */
+
+.article4 {
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.article4mobile {
+    display: none;
+}
+
+.article4 section {
+    display: flex;
+}
+
+.article4 section div h3 {
+    margin: 1.3rem;
+    margin-top: 1.8rem;
+}
+
+.article4 section div p {
+    margin: 1.3rem;
+}
+
+.button-list {
+    margin: 1.3rem;
+    margin-right: 0.5rem;
+}
+
+.button-list button{
+    background-color: rgb(242, 95, 58);
+    border: none;
+    padding: 0.7rem 1.4rem;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+    color: rgb(249, 249, 249);
+    font-weight: 700;
+}
+
+/* TERCERA SECCION */
+
+#seccion3 {
+    display: flex;
+    padding: 3rem 4rem;
+    font-size: 16px;
+}
+
+/*articulo 5 */
+
+.h2-seccion3 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 1rem;
+    margin-bottom: 4rem;
+}
+
+.div-article5 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2.4rem;
+    position: relative;
+}
+
+.tarjeta {
+    background-color: rgb(249, 249, 249);
+    padding: 2.5rem 3rem;
+    margin: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 7px;
+    transition: all 800ms;
+}
+
+.tarjeta h3 {
+    font-weight: 600;
+    margin: 1.5rem;
+}
+
+.tarjeta p {
+    line-height: 27px;
+    text-align: center;
+}
+
+.profile {
+    position: absolute;
+    top: 1px;
+}
+
+.icons-tarjeta {
+    display: none;
+}
+
+.button-container3 {
+    display: flex;
+    justify-content: center;
+    margin: 1.8rem;
+}
+
+.button-container3 button {
+    background-color: rgb(242, 95, 58);
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    color: rgb(249, 249, 249);
+    margin: 1.3rem;
+    box-shadow: -1px 3px 8px -4px rgb(70, 70, 70);
+    -webkit-box-shadow: -1px 3px 8px -4px rgb(70, 70, 70);
+    -moz-box-shadow: -1px 3px 8px -4px rgb(70, 70, 70);
+}
+
+/* ULTIMA SECCION */
+
+#seccion4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(242, 95, 58);
+    font-size: 16px;
+    margin-top: 6rem;
+    padding-left: 3em;
+    padding-right: 1.5rem;
+}
+
+/*articulo 6 */
+
+.article6 {
+    padding: 4rem;
+}
+
+.article6 p {
+    color: rgb(249, 249, 249);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.button-container4 {
+    padding-right: 6rem;
+}
+
+.button-container4 button {
+    background-color: rgb(249, 249, 249);
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    color:rgb(242, 95, 58);
+    margin: 1.3rem;
+}
+
+/*PIE DE PAGINAAAA */
+
+#seccion5 {
+    display: flex;
+    background-color: rgb(29, 30, 37);
+    justify-content: space-around;
+    height: 15rem;
+    padding: 3.5rem;
+    padding-left: 2rem;
+    padding-right: 3.5rem;
+    font-size: 16px;
+}
+
+.list-mobile {
+    display: none;
+}
+
+/*articulo 7 */
+
+.article7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.article7 div i {
+    font-size: 23px;
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+    color:rgb(249, 249, 249);
+}
+
+/*articulo 8 */
+
+.article8 {
+    display: flex;
+    flex-direction: column;
+}
+
+.article8 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    line-height: 2rem;
+}
+
+.article8 ul li a {
+    text-decoration: none;
+    color: rgb(249, 249, 249);
+}
+
+/*articulo 9 */
+
+.article9 {
+    display: flex;
+    flex-direction: column;
+}
+
+.article9 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    line-height: 2rem;
+}
+
+.article9 ul li a {
+    text-decoration: none;
+    color:rgb(249, 249, 249);
+}
+
+/*articulo 10 */
+
+.article10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.article10 form {
+    display: flex;
+}
+
+.article10 form input {
+    background-color: rgb(249, 249, 249);
+    border: none;
+    padding: 1rem 1.7rem;
+    border-radius: 25px;
+}
+
+.article10 p {
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.p-mobile {
+    display: none;
+}
+
+.button-container5 button {
+    background-color: rgb(242, 95, 58);
+    border: none;
+    padding: 1rem 1.7rem;
+    border-radius: 25px;
+    color: rgb(249, 249, 249);
+    margin-left: 1rem;
+}
+
+/*PSEUDO CLASES */
+
+.article2 img:hover {
+    transform: rotate(360deg);
+}
+
+.tarjeta:hover {
+    transform: rotate(360deg);
+}
+
+.button-container1 button:hover {
+    background-color: #fc7b5b;
+    color:rgb(249, 249, 249);
+    box-shadow: -1px 3px 8px -4px rgb(242, 95, 58);
+    -webkit-box-shadow: -1px 3px 8px -4px rgb(242, 95, 58);
+    -moz-box-shadow: -1px 3px 8px -4px rgb(242, 95, 58);
+    transform: scale(1.1);
+}
+
+.button-container2 button:hover {
+    background-color: #fc7b5b;
+    color:rgb(249, 249, 249);
+    box-shadow: -1px 3px 8px -4px rgb(242, 95, 58);
+    -webkit-box-shadow: -1px 3px 8px -4px rgb(242, 95, 58);
+    -moz-box-shadow: -1px 3px 8px -4px rgb(242, 95, 58);
+    transform: scale(1.1);
+}
+
+.button-container3 button:hover {
+    background-color: #fc7b5b;
+    color:rgb(249, 249, 249);
+    box-shadow: -1px 3px 8px -4px rgb(242, 95, 58);
+    -webkit-box-shadow: -1px 3px 8px -4px rgb(242, 95, 58);
+    -moz-box-shadow: -1px 3px 8px -4px rgb(242, 95, 58);
+    transform: scale(1.1);
+}
+
+.button-container4 button:hover {
+    color:  #f79178;
+    box-shadow: -1px 3px 8px -4px rgb(70, 70, 70);
+    -webkit-box-shadow: -1px 3px 8px -4px rgb(70, 70, 70);
+    -moz-box-shadow: -1px 3px 8px -4px rgb(70, 70, 70);
+    transform: scale(1.1);
+}
+
+.button-container5 button:hover {
+    background-color: #fc7b5b;
+    color:rgb(249, 249, 249);
+    box-shadow: -1px 3px 8px -4px rgb(242, 95, 58);
+    -webkit-box-shadow: -1px 3px 8px -4px rgb(242, 95, 58);
+    -moz-box-shadow: -1px 3px 8px -4px rgb(242, 95, 58);
+    transform: scale(1.1);
+}
+
+.ul-header li:hover {
+    transform: scale(1.1);
+
+}
+
+.ul-header li a:hover {
+    color:rgb(143, 148, 167);;
+}
+
+.article9 ul li:hover {
+    transform: scale(1.1);
+}
+
+.article8 ul li:hover {
+    transform: scale(1.1);
+}
+
+.article9 ul li a:hover {
+    color:rgb(242, 95, 58);
+}
+
+.article8 ul li a:hover {
+    color:rgb(242, 95, 58);
+}
+
+.article7 div i:hover {
+    color:rgb(242, 95, 58);
+    transform: scale(1.3);
+}
+
+@keyframes rotacion {
+    0% {
+        
+
+    }
+
+    100% {
+
+    }
+}
+
+/*ESTILOS APARTE DEL EXAMEN FINAL */
+/*PROFE, PUEDE BORRARLO Y MIRAR LA PAGINA ORIGINAL*/
+
+body {
+    background-color:#fff2ef;
+}
+
+header {
+    background-color: #fce3dc;
+}
+
+#seccion4 {
+    background-image: url('../img/cheetah.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px;
+}
+
+#seccion3 .tarjeta {
+    box-shadow: -1px 3px 8px -4px rgb(242, 95, 58);
+    -webkit-box-shadow: -1px 3px 8px -4px rgb(242, 95, 58);
+    -moz-box-shadow: -1px 3px 8px -4px rgb(242, 95, 58);
+}
+
+/*MEDIA QUERIES */
+@media (max-width: 376px) {
+
+    /*ENCABEZADO */
+
+    #header-main {
+        justify-content: space-between;
+        padding: 2rem 2rem;
+        margin-bottom: 15px;
+    }
+
+    .icon-burger {
+        display: block;
+    }
+
+    .img-logo img {
+        width: 130px;
+    }
+
+    .ul-header {
+        display: none;
+    }
+
+    .button-container1 {
+        display: none;
+    }
+
+    /*PRIMERA SECCION*/
+
+    #seccion1 {
+        flex-direction: column-reverse;
+        padding: 1rem;
+        padding-top: 2.5rem;
+        margin-bottom: 20px;
+
+    }
+
+    .article1 {
+        display: flex;
+        align-items: center;
+        padding: 1px;
+    }
+
+    .article1 h1 {
+        text-align: center;
+        font-size: 36px;
+    }
+
+    .article1 p {
+        font-size: 16px;
+        padding: 1px;
+        text-align: center;
+        margin: 1px;
+        margin-bottom: 8px;
+    }
+
+    .article2 img {
+        width: 340px;
+    }
+
+    /*SEGUNDA SECCION */
+
+    #seccion2 {
+        flex-direction: column;
+        padding: 4px;
+        margin-bottom: 23px;
+    }
+
+    .article3 {
+        padding: 4px;
+    }
+
+    .article3 h2 {
+        margin: 1px;
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .article3 p {
+        padding: 2px 23px;
+        margin: 1px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .article4 {
+        display: none;
+    }
+
+    .article4mobile {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        padding: 8px;
+        margin-top: 25px;
+    }
+
+    .article4mobile section {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .article4mobile section div h3 {
+        margin: 8px;
+        font-size: 17px;
+        text-align: start;
+    }
+
+    .article4mobile section div p {
+        text-align: start;
+        margin-bottom: 30px;
+        margin-top: 2px;
+    }
+
+    .button-list {
+        display: flex;
+        margin: 0px 15px;
+    }
+
+    /*TERCERA SECCION */
+
+    #seccion3 {
+        padding: 1px;
+    }
+
+    .h2-seccion3 {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .tarjetas-desktop {
+        display: none;
+    }
+
+    .tarjeta {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .icons-tarjeta {
+        display: block;
+        color:rgb(242, 95, 58);
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .icons-tarjeta i {
+        margin: 3px;
+    }
+
+    .button-container3 {
+        margin-top: 20px;
+    }
+
+    /*ULTIMA SECCION */
+
+    #seccion4 {
+        flex-direction: column;
+        padding: 80px 15px;
+        margin-top: 33px;
+    }
+
+    .article6 {
+        padding: 1px;
+    }
+
+    .article6 p {
+        text-align: center;
+    }
+
+    .button-container4 {
+        padding: 1px;
+        margin-top: 30px;
+    }
+
+    .button-container4 button {
+        margin: 1px;
+    }
+
+    /*PIE DE PAGINAAAAAA */
+    #seccion5 {
+        flex-direction: column;
+        padding: 1px;
+        height: 33rem;
+        align-items: center;
+    }
+
+    .article10 {
+        order: 1;
+        padding-top: 15px;
+    }
+
+    .article10 p {
+        display: none;
+    }
+
+    .p-mobile {
+        display: block;
+    }
+
+    .article8 {
+        display: none;
+    }
+
+    .article9 {
+        display: none;
+    }
+
+    .list-mobile {
+        display: block;
+        display: flex;
+        justify-content: space-around;
+        width: 300px;
+        order: 2;
+    }
+
+    .article8mobile {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .article8mobile ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        list-style: none;
+        line-height: 2rem;
+    }
+    
+    .article8mobile ul li a {
+        text-decoration: none;
+        color:rgb(249, 249, 249);
+    }
+
+    .article9mobile {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .article9mobile ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        list-style: none;
+        line-height: 2rem;
+    }
+    
+    .article9mobile ul li a {
+        text-decoration: none;
+        color:rgb(249, 249, 249);
+    }
+
+    .article7 {
+        order: 3;
+        flex-direction: column-reverse;
+    }
+
+    .article7 div i {
+        margin: 13px;
+        margin-bottom: 50px;
+        margin-top: 1px;
+        font-size: 33px;
+    }
+
+    .p-mobile {
+        order: 4;
+    }
+
+    .p-mobile p {
+        font-size: 13px;
+    }
+
+    /*ESTILOS APARTE DEL EXAMEN FINAL */
+/*PROFE, PUEDE BORRARLO Y MIRAR LA PAGINA ORIGINAL*/
+
+    #seccion4 {
+        background-position: 50% 33%;
+    }
+
+}
